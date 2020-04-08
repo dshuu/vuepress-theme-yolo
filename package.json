@@ -1,0 +1,19 @@
+{
+  "name": "vue-press",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"vuepress dev docs",
+    "build":"vuepress build docs"
+  },
+  "keywords": [
+    "vue",
+    "press"
+  ],
+  "author": "dshu",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.4.0"
+  }
+}
