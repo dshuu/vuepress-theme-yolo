@@ -26,7 +26,7 @@ export default {
     return {}
   },
   created() {
-    console.log('postlist conponents info===>', this)
+    // console.log('postlist conponents info===>', this)
   }
 }
 </script>
