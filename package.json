@@ -1,7 +1,7 @@
 {
   "name": "vue-press",
   "version": "1.0.0",
-  "description": "",
+  "description": "pure simple",
   "main": "index.js",
   "scripts": {
     "dev":"vuepress dev docs",
@@ -17,3 +17,4 @@
     "vuepress": "^1.4.0"
   }
 }
+

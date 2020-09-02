@@ -1,0 +1,21 @@
+{
+  "name": "vuepress-theme-yolo",
+  "version": "1.0.0",
+  "description": "Extremely simple",
+  "keywords": [
+    "vuepress",
+    "vue",
+    "theme"
+  ],
+  "homepage": "https://github.com/dshuu/vuepress-theme-yolo",
+  "bugs": {
+    "url": "https://github.com/dshuu/vuepress-theme-yolo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dshuu/vuepress-theme-yolo.git"
+  },
+  "license": "MIT",
+  "author": "dshu",
+  "main": "layouts/Layout.vue"
+}
