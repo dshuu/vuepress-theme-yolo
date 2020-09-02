@@ -21,9 +21,16 @@
 </template>
 
 <script>
+import { addLinkToHead } from "../utils";
+
 export default {
   name: "PostDetail",
-  created() {
+  created() {},
+  beforeMount() {
+    console.log("beforeMount");
+    addLinkToHead(
+      "//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    );
   },
 };
 </script>

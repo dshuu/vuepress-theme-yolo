@@ -11,6 +11,6 @@ module.exports = {
   },
   markdown: {
     anchor: { permalink: false },
-    toc: { includeLevel: [1, 2] },
-  }
+    toc: { includeLevel: [1, 2, 3, 4, 5] },
+  },
 };

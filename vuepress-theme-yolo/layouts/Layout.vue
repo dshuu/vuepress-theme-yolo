@@ -6,6 +6,7 @@
 
 
 <script>
+import { addLinkToHead } from '../utils'
 import PostList from '../components/PostList'
 
 export default {
@@ -24,9 +25,10 @@ export default {
   // created() {
   //   console.log('created')
   // },
-  // beforeMount() {
-  //   console.log('beforeMount')
-  // },
+  beforeMount() {
+    console.log('beforeMount')
+    addLinkToHead('//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css')
+  },
   // mounted() {
   //   console.log('mounted')
   // },

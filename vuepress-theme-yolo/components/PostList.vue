@@ -3,7 +3,7 @@
     <ul>
       <li class="post" v-for="(item,index) in list" :key="`index_${index}`">
         <!-- <time>item</time> -->
-        <a :href="item.path">
+        <a :href="path.join($site.base,item.path)">
           <span>{{item.title}}</span>
           <span class="post-tag">{{item.frontmatter.tag}}</span>
         </a>
@@ -14,6 +14,7 @@
 </template>
 
 <script>
+import path from 'path'
 export default {
   name: 'PostList',
   props: {
@@ -23,7 +24,9 @@ export default {
     }
   },
   data() {
-    return {}
+    return {
+      path
+    }
   },
   created() {
     // console.log('postlist conponents info===>', this)
