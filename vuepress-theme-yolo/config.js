@@ -1,6 +1,6 @@
 module.exports = {
-  title: "Storm",
-  description: "description for vue press",
+  title: "YOLO",
+  description: "extremly pure blog theme",
   themeConfig: {
     nav: [
       {

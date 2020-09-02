@@ -28,3 +28,5 @@ export default {
   },
 };
 </script>
+
+<style src="../styles/theme.styl" lang="stylus"></style>
